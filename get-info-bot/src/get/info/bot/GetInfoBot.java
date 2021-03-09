@@ -107,7 +107,18 @@ public class GetInfoBot extends JComponent implements ActionListener{
                         Replies ("I am no quite sure could you inform me?.");
                         }
                             else if(rdm ==3){
-                        Replies("I do not know,sorry");
+                        Replies("I do not know");
+                                
+                            }
+                            
+                        } 
+                           else if(Me.contains("siri")){
+                                 int rdm = (int) (Math.random()*3+2);
+                            if (rdm ==2){
+                        Replies ("You know about Apples assistant as well?");
+                        }
+                            else if(rdm ==3){
+                        Replies("I think Siri is a really great assistant");
                                 
                             }
                             
