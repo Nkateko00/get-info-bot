@@ -15,14 +15,14 @@ import java.awt.event.*;
 public class GetInfoBot extends JComponent implements ActionListener{
 
  
-
+    
     String N;
     int  velX =254;
     int velY =22;
     int vel =2;
     Timer t = null;
 
- 
+    
 
     JTextField tf = new JTextField();
     JTextArea ta = new JTextArea();
