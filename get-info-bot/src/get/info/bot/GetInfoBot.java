@@ -91,7 +91,7 @@ public class GetInfoBot extends JComponent implements ActionListener{
                             
                         } 
                          else if(Me.contains("fuck")|| Me.contains("shit")|| Me.contains("crap")){
-                                 int rdm = (int) (Math.random()*3+2);
+                                 int rdm = (int) (Math.random()*4+2);
                             if (rdm ==2){
                         Replies ("Please do not swear..");
                         }
@@ -99,7 +99,10 @@ public class GetInfoBot extends JComponent implements ActionListener{
                         Replies("Could we please keep it PG 13?");
                                 
                             }
-                            
+                              else if(rdm ==4){
+                        Replies("Hey! Watch your language.");
+                                
+                            }
                         } 
                           else if(Me.contains("where")){
                                  int rdm = (int) (Math.random()*3+2);
